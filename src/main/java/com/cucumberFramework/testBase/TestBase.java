@@ -18,7 +18,7 @@ public class TestBase {
 	public WebDriver selectBrowser(String browser) {
 		if (System.getProperty("os.name").toLowerCase().contains(OS.WINDOW.name().toLowerCase())) {
 			if (browser.equalsIgnoreCase(Browsers.CHROME.name())) {
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/newdriver/chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 			} else if (browser.equalsIgnoreCase(Browsers.FIREFOX.name())) {
