@@ -2,6 +2,8 @@ package com.cucumberFramework.pageObjects;
 
 import com.cucumberFramework.testBase.TestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Adminpage extends TestBase {
 
@@ -11,12 +13,9 @@ public class Adminpage extends TestBase {
 
     }
 
-    public boolean isAdminpage(){
+    public boolean isAdminpage() {
         return driver.findElement(By.xpath("//span[.=\"Organization\"]")).isDisplayed();
     }
-
-
-
 
 
 
