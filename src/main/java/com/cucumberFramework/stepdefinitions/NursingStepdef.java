@@ -2,6 +2,7 @@ package com.cucumberFramework.stepdefinitions;
 
 import com.cucumberFramework.pageObjects.HMS_logonPage;
 import com.cucumberFramework.pageObjects.NursingPage;
+import com.cucumberFramework.pageObjects.Readexcel;
 import com.cucumberFramework.testBase.TestBase;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
@@ -9,15 +10,20 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openxml4j.exceptions.InvalidFormatException;
+
+import java.io.IOException;
 
 public class NursingStepdef extends TestBase {
     HMS_logonPage hms_logonPage =new HMS_logonPage();
     NursingPage nursingPage = new NursingPage();
+    Readexcel readxls=new Readexcel();
 
 
 
     @When("^user login to HMS system$")
-    public void userLoginToHMSSystem() {
+    public void userLoginToHMSSystem() throws IOException, InvalidFormatException {
+        readxls.readExcel();
 
         hms_logonPage.openHomepage();
         hms_logonPage.selectFyear("2020-2021");

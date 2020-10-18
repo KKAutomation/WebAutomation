@@ -32,6 +32,15 @@ Feature: As a user I should be able to capture all admin related activities
       | Dr GOURAV SAHA EM0004 | Testuser02 | newpass13 | newpass13 | delete      | ACCOUNTS LAB        | ACTIVE |
       | Dr lalit kumar EM0002 | Testuser03 | newpass14 | newpass14 | both        | ACCOUNTS  LAB NURSE | ACTIVE |
 
+#Scenario Outline: As a user i want to register a staff
+#  When user login to HMS system
+#  And Navigate to Admin Module
+##  And navigate to  staff entry page
+##  And input all mandatory field as  "<name >" "<desg >"   "< presentAdd>" "< perAdd>" "<Doj >" "<dob >" "<Bgrp >" "<Jobtype >" "<sex >" "< exp>" "< dept>" "<spl >"   "< pfno>" "< Esi>" "< >" "< >"
+#
+#
+#  Examples:
+
 
 
 

@@ -1,10 +1,22 @@
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\helper\WaitHelper.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\ServiceHooks.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\testRunner\TestRunner.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\enums\Browsers.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\loginLogoutPageStepDefinitions.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\helper\LoggerHelper.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\enums\OS.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\LoginLogoutPage.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\helper\Constants.java
-D:\My Automation Work\WebAutomation\WebAutomation\src\main\java\com\cucumberFramework\testBase\TestBase.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\Adminpage.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\NehaAmazonSteps.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\ServiceHooks.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\testRunner\TestRunner.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\helper\Constants.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\Inject.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\Readexcel.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\helper\WaitHelper.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\enums\OS.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\loginLogoutPageStepDefinitions.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\NursingStepdef.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\CommonFunctions.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\Createuserpage.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\Adminstepdef.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\enums\Browsers.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\NursingPage.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\utility\Addonfunction.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\HMS_logonPage.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\helper\LoggerHelper.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\pageObjects\LoginLogoutPage.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\testBase\TestBase.java
+D:\Automation\WebAutomation\src\main\java\com\cucumberFramework\stepdefinitions\Sunilpagedef.java
