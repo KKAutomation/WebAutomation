@@ -8,7 +8,6 @@ bat 'mvn clean compile'
 }}
 stage('Test'){
 steps{
-checkout scm
 bat 'mvn test'
 }}
 }}
