@@ -4,5 +4,5 @@ stages{
 stage('Build'){
 steps{
 checkout scm
-step{mvn clean compile}
+bat 'mvn clean compile'
 }}}}
